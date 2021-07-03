@@ -20,14 +20,15 @@
 6. show all
 7. powershell
 8. help
-9. exit
+9. about
+10. exit
 ```
 
 ### Building 🔪
 
 Since the SharpSploit project has been implemented in .NET Framework 3.5 and 4.0 only, you need to use the proper references.
 
-**For targeting .NET Framework 3.5 platform, add references to all the DLLs within `sharpsploit-dlls\net35`. Similarly, for targeting .NET Framework 4.0 platform, add references to only all the DLLs within `sharpsploit-dlls\net40`.** *(Default is v3.5)*
+**For targeting .NET Framework 3.5 platform, use the project directory `CuteSharpSploit_net_35`, and add references to all the DLLs within `sharpsploit-dlls\net35`. Similarly, for targeting .NET Framework 4.0 platform, use the project directory `CuteSharpSploit_net_40`, and add references to all the DLLs within `sharpsploit-dlls\net40`.
 
 Alternatively, you can build your own set of SharpSploit libraries from [their repo](https://github.com/cobbr/SharpSploit), then add them as references as described above.
 
